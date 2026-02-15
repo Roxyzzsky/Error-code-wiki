@@ -8,10 +8,10 @@ Welcome, this is the Error_code Wiki but as a bunch of css and markdown. This is
 In order to contribute, you need to have simple knownledge about markdown *(occassionally about mkdocs or css aswell, depending on what you want to add)* and you need to have a github account.
 <br>
 <br>
-If you do not directly have edit access to this source then you need to create a fork of this reposity. Once you have created the fork, you may edit your own fork however you want and add/remove/change content to your liking.
+If you do not directly have edit access to this source then you need to create a fork of this repository. Once you have created the fork, you may edit your own fork however you want and add/remove/change content to your liking.
 <br>
 <br>
-Once you feel like you have finished what you wanted to contribute, you can create a pull request by pressing the "Contribute" button on your own fork which will prompt you to create a pull request.
+After you have finished what you wanted to contribute, you can create a pull request by pressing the "Contribute" button on your own fork which will prompt you to create a pull request.
 <br>
 
 ### Pull requests
