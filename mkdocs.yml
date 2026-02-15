@@ -4,17 +4,21 @@ theme:
   name: material
   font:
     text: Inter
+  logo: assets/site_internal/studioinsanity.png
+  favicon: assets/site_internal/studioinsanity.png
   icon:
     logo: fontawesome/solid/database
   palette:
     scheme: slate
-    primary: red
-    accent: red
+    primary: custom
   features:
     - content.code.copy
     - navigation.footer
-nav:
-  - Introduction: index.md
+    - navigation.sections
+    - navigation.tabs
+    - toc.integrate
+##nav:
+  ##- Introduction: index.md
 
 extra_css:
   - stylesheets/extra.css
@@ -43,4 +47,4 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
-copyright: Copyright &copy; 2026 | mrow
+copyright: Copyright &copy; 2026 | Studio Insanity
