@@ -14,8 +14,9 @@ theme:
   features:
     - content.code.copy
     - navigation.footer
-    - navigation.sections
+    ##- navigation.sections
     - navigation.tabs
+    - navigation.expand
     - toc.integrate
 ##nav:
   ##- Introduction: index.md
@@ -34,8 +35,9 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-  - admonition
+  - pymdownx.blocks.caption
   - pymdownx.details
+  - admonition
   - footnotes
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
