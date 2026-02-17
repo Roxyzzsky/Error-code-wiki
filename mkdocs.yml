@@ -5,7 +5,7 @@ site_description: >-
   The official Wiki for the game ERROR_CODE on Roblox.
 theme:
   name: material
-  custom_dir: ./docs/theme_overrides
+  custom_dir: theme_overrides
   font:
     text: Inter
   logo: assets/site_internal/studioinsanity.png
