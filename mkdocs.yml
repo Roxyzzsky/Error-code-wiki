@@ -1,7 +1,11 @@
 site_name: ROBLOX - Error_code wiki
-site_url: https://sitename.example
+site_url: https://errorcodewiki.com
+site_author: Roxyzzstars
+site_description: >-
+  The official Wiki for the game ERROR_CODE on Roblox.
 theme:
   name: material
+  custom_dir: ./docs/theme_overrides
   font:
     text: Inter
   logo: assets/site_internal/studioinsanity.png
@@ -14,19 +18,24 @@ theme:
   features:
     - content.code.copy
     - navigation.footer
-    ##- navigation.sections
     - navigation.tabs
     - navigation.expand
+    - navigation.indexes 
     - toc.integrate
+
 ##nav:
   ##- Introduction: index.md
+not_in_nav: | ## Pages that should be hidden
+  page_locked.md
 
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - /page_js/page_lock.js
+  - /page_js/theme_switch.js
+
 markdown_extensions:
-  - attr_list
-  - md_in_html
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
@@ -37,6 +46,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.blocks.caption
   - pymdownx.details
+  - attr_list
+  - md_in_html
   - admonition
   - footnotes
   - pymdownx.emoji:

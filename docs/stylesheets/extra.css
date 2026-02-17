@@ -6,15 +6,68 @@
 
 [data-md-color-scheme="slate"] {
   --md-hue: 2; 
+  --md-primary-fg-color:        #9b2525;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #ff0011;
 }
+
+body.md-nav__link {
+  --md-default-bg-color: #00000000;
+}
+
+.md-nav__link[href="/special-page/"] {
+  color: #ff6600;      /* text color */
+  font-weight: bold;    /* optional */
+}
+
+/* Special page theme */
+body.special-theme {
+    --md-hue:200;
+    --md-primary-fg-color: #a10000;   /* Primary text */
+    --md-accent-fg-color: #680000;    /* Accent color */
+    --md-footer-bg-color: #000;
+    --md-footer-bg-color--dark: #000;
+    background-color: #1f0000;        /* Page background */
+    color: #ffffff;                    /* Default text */
+}
+
+/* Navigation links */
+body.special-theme .md-nav__link {
+    color: #c90000;
+    --md-default-bg-color: #00000000;
+}
+body.special-theme .md-nav__link:hover {
+     color: #ff3333;
+}
+
+.md-nav__link--active {
+  color: #c90000;
+  font-weight: bold;
+}
+
+/* Code blocks, tables, etc. */
+body.special-theme pre,
+body.special-theme code {
+    background-color: #5500005d;
+    color: #c22a2a;
+}
+
+/* Admonitions */
+
+body.special-theme .admonition {
+    background-color: #00000000;
+    color: #c22a2a;
+}
+
+/* Sillies */
 
 .video-container {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
+  width: 0%;
+  height: 0%;
+  z-index: -1;
   overflow: hidden;
 }
 
