@@ -1,7 +1,7 @@
-window.addEventListener('DOMContentLoaded', function() {
-
-    const meta = document.querySelector('meta[name="page_locked"]');
-    if (meta && meta.content === "true") {
+document$.subscribe(function () {
+    const locked = document.querySelector('meta[name="page_locked"]');
+    if (locked) {
+        alert("Locked page detected");
         const message = document.createElement('div');
         message.innerHTML = "<h1>Page Locked</h1><h2>Sorry :(</h2>";
         message.style.position = "fixed";

@@ -1,6 +1,7 @@
-window.addEventListener('load', function() {
-    const meta = document.querySelector('meta[name="special_theme"]');
-    if (meta && meta.content === "true") {
+document$.subscribe(function () {
+    const theme = document.querySelector('meta[name="special_theme"]');
+    if (theme) {
+        alert("Custom theme detected!");
         document.body.classList.add("special-theme");
     }
 });
