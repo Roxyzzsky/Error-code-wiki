@@ -34,8 +34,8 @@ extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
-  - /page_js/page_lock.js
-  - /page_js/theme_switch.js
+  - page_js/page_lock.js
+  - page_js/theme_switch.js
 
 markdown_extensions:
   - pymdownx.critic
