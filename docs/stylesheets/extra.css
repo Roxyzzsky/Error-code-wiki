@@ -6,13 +6,19 @@
 
 [data-md-color-scheme="slate"] {
   --md-hue: 2; 
-  --md-primary-fg-color:        #9b2525;
+  --md-primary-fg-color:        #b82c2c;
   --md-primary-fg-color--light: #ECB7B7;
   --md-primary-fg-color--dark:  #ff0011;
 }
 
 body.md-nav__link {
   --md-default-bg-color: #00000000;
+}
+
+body p{
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #a5a5a5;
 }
 
 /* Sillies */
@@ -31,4 +37,17 @@ body.md-nav__link {
   width: 100vw;
   height: 100vh;
   pointer-events: none; /* prevents clicking */
+}
+
+/* Custom page status icons */
+.md-status--WIP::after {
+    background-color: #ff5e003a;
+    border-radius: 0.2rem;
+    color: rgba(255, 95, 21, 0.692);
+    content: "WIP";
+    font-size: 0.5rem;
+    height: auto;       
+    padding: 0.1rem;
+    -webkit-mask-image: none;
+    width: auto;
 }

@@ -2,7 +2,7 @@ document$.subscribe(function () {
     const locked = document.querySelector('meta[name="page_locked"]');
     if (locked) {
         const message = document.createElement('div');
-        message.innerHTML = "<h1>Page Locked</h1><h2>Sorry :(</h2>";
+        message.innerHTML = "<h1>Bro</h1><h2>It literally told you that this page is locked, stop trying :c</h2>";
         message.style.position = "fixed";
         message.style.top = "50%";
         message.style.left = "50%";

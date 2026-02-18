@@ -11,12 +11,16 @@ body.hemorrhage-theme {
     --md-footer-bg-color--dark: #000; /* Page footer */
     --md-default-bg-color: #1d0000;    /* Page background - usually really bright */
     color: #d64f4f;                   /* Default text */
-    
 }
 
 /* Page h1 */
 body.hemorrhage-theme h1 {
     color: #ff0000;
+}
+
+/* Page text */
+body.hemorrhage-theme p {
+    color: #a82121;
 }
 
 /* Page text hover */
