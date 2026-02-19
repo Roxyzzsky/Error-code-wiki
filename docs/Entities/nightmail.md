@@ -19,3 +19,5 @@ hide:
       allowfullscreen>
     </iframe>
   </div>
+
+  <!-- Joke thing by Kitr -->
